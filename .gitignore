@@ -24,7 +24,3 @@ yarn-error.log*
 
 # Local env files
 .env*.local
-
-# Project specific
-/bootcamp-milestone-1
-/bootcamp-milestone-2
