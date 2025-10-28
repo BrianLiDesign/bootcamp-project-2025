@@ -1,92 +1,36 @@
-# Brian Li Website & Portfolio
-
-## Table of Contents
-
-1. [Project Description](#project-description)
-2. [Getting Started](#getting-started)
-   - [Installation](#installation)
-3. [File Structure](#file-structure)
-4. [Contact](#contact)
-5. [Acknowledgments](#acknowledgments)
-
-## Project Description
-
-A clean and minimalist hub showcasing the work and ethos of a Computer Engineering student at Cal Poly San Luis Obispo. With a focus on the tagline "Code with Precision. Circuits with Purpose," my website highlights my technical projects, writing, and professional background in an elegant, user-friendly format
-<brianlidesign.github.io>
-
-- Homepage: Immediately introduces me with a concise declaration of profession and philosophy, reinforced by visuals of my workspace, collaborative moments, and engineering schematics
-  [brianlidesign.github.io][website-url]
-
-- Navigation: Simple, intuitive links guide visitors to key areas:
-
-  - Projects – A curated gallery of my engineering and coding endeavors.
-
-  - Writing – A space for my technical musings, essays, or reflections.
-
-  - About – Details my background, academic focus, and personal motivation.
-
-- Accessibility & Credibility: Easily accessible icons link to my GitHub, LinkedIn, and YouTube profiles, offering multi-channel engagement
-  [brianlidesign.github.io][website-url]
-- Plus, a “View this site’s source code” link transparently showcases my development process
-  [brianlidesign.github.io][website-url]
-
-- Design Aesthetic: Clean layout, purposeful visuals, and structured navigation offer a welcoming and professional introduction to who I am and what I do.
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
-### Installation
+First, run the development server:
 
-Clone and install.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## File Structure
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-.
-├── .github
-│ └── dependabot.yml
-├── assets
-│ ├── data
-│ ├── fonts
-│ └── images
-│ └── icons
-├── css
-│ ├── slider.css
-│ └── style.css
-├── js
-│ ├── header-scroll.js
-│ ├── index.js
-│ └── page-scroll.js
-├── pages
-│ ├── about.html
-│ ├── flip-that-digit.html
-│ ├── projects.html
-│ ├── writing.html
-│ ├── 404.html
-│ ├── googlea935....html
-│ └── index.html
-└── README.md
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-/.github: This directory contains GitHub-specific configuration files. In this case, it includes `dependabot.yml`, which automates dependency updates for my project.
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-/assets: This directory contains static resources that support the website. It is subdivided into:
+## Learn More
 
-- /data: Stores data files, such as resumes or documents used on the site.
-- /fonts: Contains custom font files for consistent typography across the website.
-- /images: Contains image assets used throughout the site. Within it, /icons holds smaller icon graphics.
+To learn more about Next.js, take a look at the following resources:
 
-/css: This directory contains stylesheets (CSS files) that define how the website looks, including layout, colors, and typography.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-/js: This directory contains JavaScript files that add interactivity and dynamic behavior to the site, such as scrolling effects and event handling.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-/pages: This directory contains the main HTML pages of the website, such as `index.html`, `projects.html`, and `about.html`. These are the actual pages visitors will navigate to.
+## Deploy on Vercel
 
-README.md: A text file containing reference information about the project, such as setup instructions, usage details, or notes for developers.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-## Contact
-
-Brian Li - <brian.li.social@gmail.com>
-
-## Acknowledgments
-
-<!-- MARKDOWN LINKS & IMAGES -->
-
-[website-url]: https://brianlidesign.github.io/
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
