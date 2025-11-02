@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/brian/Documents/GitHub/bootcamp-project-2025/src/app/page.tsx"],"sourcesContent":["export default function Home() {\r\n  return (\r\n    <div className=\"container mx-auto px-4\">\r\n      <div className=\"my-8\">\r\n        <h1 className=\"text-4xl font-bold mb-4\">Brian Li</h1>\r\n        <p className=\"text-xl text-gray-700 mb-6\">\r\n          Computer Engineering Student at Cal Poly San Luis Obispo\r\n        </p>\r\n        <div className=\"prose lg:prose-xl\">\r\n          <p>Code with Precision. Circuits with Purpose.</p>\r\n        </div>\r\n        <div className=\"heroImg\">\r\n          <Image\r\n            src=\"/images/techsavvyteens-helping-people-2.jpg\"\r\n            alt=\"Desk setup / hero\"\r\n            width={800}\r\n            height={400}\r\n          />\r\n        </div>\r\n      </div>\r\n    </div>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAU;kBACb,cAAA,8OAAC;YAAI,WAAU;;8BACb,8OAAC;oBAAG,WAAU;8BAA0B;;;;;;8BACxC,8OAAC;oBAAE,WAAU;8BAA6B;;;;;;8BAG1C,8OAAC;oBAAI,WAAU;8BACb,cAAA,8OAAC;kCAAE;;;;;;;;;;;8BAEL,8OAAC;oBAAI,WAAU;8BACb,cAAA,8OAAC;wBACC,KAAI;wBACJ,KAAI;wBACJ,OAAO;wBACP,QAAQ;;;;;;;;;;;;;;;;;;;;;;AAMpB","debugId":null}}]
+}

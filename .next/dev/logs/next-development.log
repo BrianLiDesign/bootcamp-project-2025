@@ -1,0 +1,1379 @@
+[00:00:03.152] Server  LOG      ✓ Ready in 2.1s
+[00:00:07.399] Server  LOG      ○ Compiling /blog/[slug] ...
+[00:00:10.614] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:00:11.327] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:11.861] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/blog/tech..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         suppresshydrationwarning="true"
+-                         data-lt-installed="true"
+                        >
+                  ...
+
+[00:00:12.574] Browser WARN    Image with src "/images/techsavvyteens-helping-people-2.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:45.579] Server  LOG      ✓ Compiled in 150ms
+[00:02:49.645] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:50.270] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/projects" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         suppresshydrationwarning="true"
+-                         data-lt-installed="true"
+                        >
+                  ...
+
+[00:02:51.320] Browser WARN    Image with src "/images/techsavvyteens-helping-people-2.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:51.796] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:02:54.894] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:54.894] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/about" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         suppresshydrationwarning="true"
+-                         data-lt-installed="true"
+                        >
+                  ...
+
+[00:02:55.892] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:56.125] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/projects" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         suppresshydrationwarning="true"
+-                         data-lt-installed="true"
+                        >
+                  ...
+
+[00:02:56.873] Browser WARN    Image with src "/images/techsavvyteens-helping-people-2.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:03:56.723] Server  LOG      ✓ Compiled in 68ms
+[00:05:20.926] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:21.041] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         suppresshydrationwarning="true"
+-                         data-lt-installed="true"
+                        >
+                          <body
+                            className="geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__var..."
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[00:05:24.477] Browser WARN    Image with src "/images/techsavvyteens-helping-people-2.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:05:29.382] Server  LOG      ✓ Compiled in 84ms
+[00:05:59.082] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:59.353] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/projects" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         suppresshydrationwarning="true"
+-                         data-lt-installed="true"
+                        >
+                  ...
+
+[00:05:59.978] Browser WARN    Image with src "/images/techsavvyteens-helping-people-2.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:11:02.222] Server  LOG      ✓ Compiled in 119ms
+[00:11:05.464] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:13.517] Server  LOG      ✓ Compiled in 54ms
+[00:11:24.219] Server  LOG      ✓ Compiled in 70ms
+[00:11:28.209] Server  LOG      ✓ Compiled in 82ms
+[00:12:00.087] Browser WARN    Image with src "/images/techsavvyteens-helping-people-2.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:12:12.247] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:27.141] Server  ERROR    ⨯ ReferenceError: Image is not defined
+[00:12:28.268] Browser ERROR   uncaughtError: ReferenceError: Image is not defined
+[00:12:39.965] Server  ERROR    ⨯ ReferenceError: Image is not defined
+[00:12:41.057] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:41.174] Browser ERROR   uncaughtError: ReferenceError: Image is not defined
+[00:12:48.682] Browser ERROR   ./src/app/page.tsx:16:15
+Parsing ecmascript source code failed
+  14 |     </div>
+  15 |     <Image
+> 16 |               src="/images/techsavvyteens-helping-people-2.jpg"
+     |               ^^^
+  17 |               alt="Desk setup / hero"
+  18 |               width={1600}
+  19 |               height={900}
+
+Expected ',', got 'src'
+[00:12:48.682] Browser ERROR   ./src/app/page.tsx:16:15
+Parsing ecmascript source code failed
+  14 |     </div>
+  15 |     <Image
+> 16 |               src="/images/techsavvyteens-helping-people-2.jpg"
+     |               ^^^
+  17 |               alt="Desk setup / hero"
+  18 |               width={1600}
+  19 |               height={900}
+
+Expected ',', got 'src'
+[00:12:56.276] Browser ERROR   ./src/app/page.tsx:15:10
+Parsing ecmascript source code failed
+  13 |       </div>
+  14 |     </div>
+> 15 |     <div className="heroImg">
+     |          ^^^^^^^^^
+  16 |             {/* Use any large photo you like. This path must exist under /public */}
+  17 |             <Image
+  18 |               src="/images/techsavvyteens-helping-people-2.jpg"
+
+Expected ',', got 'className'
+[00:12:56.276] Browser ERROR   ./src/app/page.tsx:15:10
+Parsing ecmascript source code failed
+  13 |       </div>
+  14 |     </div>
+> 15 |     <div className="heroImg">
+     |          ^^^^^^^^^
+  16 |             {/* Use any large photo you like. This path must exist under /public */}
+  17 |             <Image
+  18 |               src="/images/techsavvyteens-helping-people-2.jpg"
+
+Expected ',', got 'className'
+[00:12:58.558] Server  LOG      ✓ Compiled in 54ms
+[00:12:59.222] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:01.174] Server  ERROR    ⨯ ReferenceError: Image is not defined
+[00:13:01.839] Browser ERROR   uncaughtError: ReferenceError: Image is not defined
+[00:13:06.171] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:40.606] Browser WARN    Image with src "/images/techsavvyteens-helping-people-2.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:15:29.878] Server  LOG      ✓ Compiled in 110ms
+[00:15:38.721] Server  LOG      ✓ Compiled in 124ms
+[00:16:40.684] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:21:35.702] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:21:36.695] Browser WARN    Image with src "/images/techsavvyteens-helping-people-2.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:27:16.136] Server  LOG      ✓ Compiled in 115ms
+[00:27:16.340] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:27:18.720] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:29:47.124] Server  ERROR    ⨯ ./src/components/Navbar.tsx:33:2
+Parsing ecmascript source code failed
+  31 |           <div className={styles.navLeft}>
+  32 |             <Link href="/" className={styles.logo}>
+> 33 | <<<<<<< HEAD
+     |  ^^
+  34 |               <div className="flex items-center gap-2">
+  35 |                 <Image
+  36 |                   src="/images/icons/brian-li-logo.png"
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/Navbar.tsx:33:4
+Parsing ecmascript source code failed
+  31 |           <div className={styles.navLeft}>
+  32 |             <Link href="/" className={styles.logo}>
+> 33 | <<<<<<< HEAD
+     |    ^^
+  34 |               <div className="flex items-center gap-2">
+  35 |                 <Image
+  36 |                   src="/images/icons/brian-li-logo.png"
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/Navbar.tsx:3:1
+Parsing ecmascript source code failed
+  1 | "use client";
+  2 | import Link from "next/link";
+> 3 | <<<<<<< HEAD
+    | ^^^^^^^
+  4 | import Image from "next/image";
+  5 | =======
+  6 | >>>>>>> 9e861a4ba506cdb07d765daaf3166186bdc5e7c0
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/Navbar.tsx:5:1
+Parsing ecmascript source code failed
+  3 | <<<<<<< HEAD
+  4 | import Image from "next/image";
+> 5 | =======
+    | ^^^^^^^
+  6 | >>>>>>> 9e861a4ba506cdb07d765daaf3166186bdc5e7c0
+  7 | import { usePathname } from "next/navigation";
+  8 | import styles from "./Navbar.module.css";
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/Navbar.tsx:6:1
+Parsing ecmascript source code failed
+  4 | import Image from "next/image";
+  5 | =======
+> 6 | >>>>>>> 9e861a4ba506cdb07d765daaf3166186bdc5e7c0
+    | ^^^^^^^
+  7 | import { usePathname } from "next/navigation";
+  8 | import styles from "./Navbar.module.css";
+  9 |
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/Navbar.tsx:12:1
+Parsing ecmascript source code failed
+  10 | const navLinks = [
+  11 |   { href: "/", label: "Home" },
+> 12 | <<<<<<< HEAD
+     | ^^^^^^^
+  13 |   { href: "/blog", label: "Writing" },
+  14 | =======
+  15 |   { href: "/blog", label: "Blog" },
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/Navbar.tsx:14:1
+Parsing ecmascript source code failed
+  12 | <<<<<<< HEAD
+  13 |   { href: "/blog", label: "Writing" },
+> 14 | =======
+     | ^^^^^^^
+  15 |   { href: "/blog", label: "Blog" },
+  16 | >>>>>>> 9e861a4ba506cdb07d765daaf3166186bdc5e7c0
+  17 |   { href: "/projects", label: "Projects" },
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/Navbar.tsx:16:1
+Parsing ecmascript source code failed
+  14 | =======
+  15 |   { href: "/blog", label: "Blog" },
+> 16 | >>>>>>> 9e861a4ba506cdb07d765daaf3166186bdc5e7c0
+     | ^^^^^^^
+  17 |   { href: "/projects", label: "Projects" },
+  18 |   { href: "/about", label: "About" },
+  19 | ];
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/Navbar.tsx:23:1
+Parsing ecmascript source code failed
+  21 | export default function Navbar() {
+  22 |   const pathname = usePathname();
+> 23 | <<<<<<< HEAD
+     | ^^^^^^^
+  24 |
+  25 | =======
+  26 | >>>>>>> 9e861a4ba506cdb07d765daaf3166186bdc5e7c0
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/Navbar.tsx:25:1
+Parsing ecmascript source code failed
+  23 | <<<<<<< HEAD
+  24 |
+> 25 | =======
+     | ^^^^^^^
+  26 | >>>>>>> 9e861a4ba506cdb07d765daaf3166186bdc5e7c0
+  27 |   return (
+  28 |     <header className={styles.header}>
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/Navbar.tsx:26:1
+Parsing ecmascript source code failed
+  24 |
+  25 | =======
+> 26 | >>>>>>> 9e861a4ba506cdb07d765daaf3166186bdc5e7c0
+     | ^^^^^^^
+  27 |   return (
+  28 |     <header className={styles.header}>
+  29 |       <div className={styles.container}>
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+
+
+[00:29:47.146] Server  LOG      ✓ Compiled in 394ms
+[00:29:48.600] Browser ERROR   ./src/app/page.tsx:12:4
+Parsing ecmascript source code failed
+  10 |           <p>Code with Precision. Circuits with Purpose.</p>
+  11 |         </div>
+> 12 | <<<<<<< HEAD
+     |    ^^
+  13 |         <div className="heroImg">
+  14 |           <Image
+  15 |             src="/images/techsavvyteens-helping-people-2.jpg"
+
+Expression expected
+[00:29:48.600] Browser ERROR   ./src/components/Navbar.tsx:33:4
+Parsing ecmascript source code failed
+  31 |           <div className={styles.navLeft}>
+  32 |             <Link href="/" className={styles.logo}>
+> 33 | <<<<<<< HEAD
+     |    ^^
+  34 |               <div className="flex items-center gap-2">
+  35 |                 <Image
+  36 |                   src="/images/icons/brian-li-logo.png"
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+[00:29:48.600] Browser ERROR   ./src/components/Navbar.tsx:26:1
+Parsing ecmascript source code failed
+  24 |
+  25 | =======
+> 26 | >>>>>>> 9e861a4ba506cdb07d765daaf3166186bdc5e7c0
+     | ^^^^^^^
+  27 |   return (
+  28 |     <header className={styles.header}>
+  29 |       <div className={styles.container}>
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+[00:29:48.600] Browser ERROR   ./src/app/page.tsx:12:4
+Parsing ecmascript source code failed
+  10 |           <p>Code with Precision. Circuits with Purpose.</p>
+  11 |         </div>
+> 12 | <<<<<<< HEAD
+     |    ^^
+  13 |         <div className="heroImg">
+  14 |           <Image
+  15 |             src="/images/techsavvyteens-helping-people-2.jpg"
+
+Expression expected
+[00:29:48.600] Browser ERROR   ./src/components/Navbar.tsx:33:4
+Parsing ecmascript source code failed
+  31 |           <div className={styles.navLeft}>
+  32 |             <Link href="/" className={styles.logo}>
+> 33 | <<<<<<< HEAD
+     |    ^^
+  34 |               <div className="flex items-center gap-2">
+  35 |                 <Image
+  36 |                   src="/images/icons/brian-li-logo.png"
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+[00:29:48.600] Browser ERROR   ./src/components/Navbar.tsx:26:1
+Parsing ecmascript source code failed
+  24 |
+  25 | =======
+> 26 | >>>>>>> 9e861a4ba506cdb07d765daaf3166186bdc5e7c0
+     | ^^^^^^^
+  27 |   return (
+  28 |     <header className={styles.header}>
+  29 |       <div className={styles.container}>
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+[00:29:48.600] Browser ERROR   ./src/app/page.tsx:12:4
+Parsing ecmascript source code failed
+  10 |           <p>Code with Precision. Circuits with Purpose.</p>
+  11 |         </div>
+> 12 | <<<<<<< HEAD
+     |    ^^
+  13 |         <div className="heroImg">
+  14 |           <Image
+  15 |             src="/images/techsavvyteens-helping-people-2.jpg"
+
+Expression expected
+[00:29:48.600] Browser ERROR   ./src/components/Navbar.tsx:33:4
+Parsing ecmascript source code failed
+  31 |           <div className={styles.navLeft}>
+  32 |             <Link href="/" className={styles.logo}>
+> 33 | <<<<<<< HEAD
+     |    ^^
+  34 |               <div className="flex items-center gap-2">
+  35 |                 <Image
+  36 |                   src="/images/icons/brian-li-logo.png"
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+[00:29:48.600] Browser ERROR   ./src/components/Navbar.tsx:26:1
+Parsing ecmascript source code failed
+  24 |
+  25 | =======
+> 26 | >>>>>>> 9e861a4ba506cdb07d765daaf3166186bdc5e7c0
+     | ^^^^^^^
+  27 |   return (
+  28 |     <header className={styles.header}>
+  29 |       <div className={styles.container}>
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+[00:29:48.651] Server  ERROR    ⨯ ./src/components/Navbar.tsx:33:2
+Parsing ecmascript source code failed
+  31 |           <div className={styles.navLeft}>
+  32 |             <Link href="/" className={styles.logo}>
+> 33 | <<<<<<< HEAD
+     |  ^^
+  34 |               <div className="flex items-center gap-2">
+  35 |                 <Image
+  36 |                   src="/images/icons/brian-li-logo.png"
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/Navbar.tsx:33:4
+Parsing ecmascript source code failed
+  31 |           <div className={styles.navLeft}>
+  32 |             <Link href="/" className={styles.logo}>
+> 33 | <<<<<<< HEAD
+     |    ^^
+  34 |               <div className="flex items-center gap-2">
+  35 |                 <Image
+  36 |                   src="/images/icons/brian-li-logo.png"
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/Navbar.tsx:3:1
+Parsing ecmascript source code failed
+  1 | "use client";
+  2 | import Link from "next/link";
+> 3 | <<<<<<< HEAD
+    | ^^^^^^^
+  4 | import Image from "next/image";
+  5 | =======
+  6 | >>>>>>> 9e861a4ba506cdb07d765daaf3166186bdc5e7c0
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/Navbar.tsx:5:1
+Parsing ecmascript source code failed
+  3 | <<<<<<< HEAD
+  4 | import Image from "next/image";
+> 5 | =======
+    | ^^^^^^^
+  6 | >>>>>>> 9e861a4ba506cdb07d765daaf3166186bdc5e7c0
+  7 | import { usePathname } from "next/navigation";
+  8 | import styles from "./Navbar.module.css";
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/Navbar.tsx:6:1
+Parsing ecmascript source code failed
+  4 | import Image from "next/image";
+  5 | =======
+> 6 | >>>>>>> 9e861a4ba506cdb07d765daaf3166186bdc5e7c0
+    | ^^^^^^^
+  7 | import { usePathname } from "next/navigation";
+  8 | import styles from "./Navbar.module.css";
+  9 |
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/Navbar.tsx:12:1
+Parsing ecmascript source code failed
+  10 | const navLinks = [
+  11 |   { href: "/", label: "Home" },
+> 12 | <<<<<<< HEAD
+     | ^^^^^^^
+  13 |   { href: "/blog", label: "Writing" },
+  14 | =======
+  15 |   { href: "/blog", label: "Blog" },
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/Navbar.tsx:14:1
+Parsing ecmascript source code failed
+  12 | <<<<<<< HEAD
+  13 |   { href: "/blog", label: "Writing" },
+> 14 | =======
+     | ^^^^^^^
+  15 |   { href: "/blog", label: "Blog" },
+  16 | >>>>>>> 9e861a4ba506cdb07d765daaf3166186bdc5e7c0
+  17 |   { href: "/projects", label: "Projects" },
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/Navbar.tsx:16:1
+Parsing ecmascript source code failed
+  14 | =======
+  15 |   { href: "/blog", label: "Blog" },
+> 16 | >>>>>>> 9e861a4ba506cdb07d765daaf3166186bdc5e7c0
+     | ^^^^^^^
+  17 |   { href: "/projects", label: "Projects" },
+  18 |   { href: "/about", label: "About" },
+  19 | ];
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/Navbar.tsx:23:1
+Parsing ecmascript source code failed
+  21 | export default function Navbar() {
+  22 |   const pathname = usePathname();
+> 23 | <<<<<<< HEAD
+     | ^^^^^^^
+  24 |
+  25 | =======
+  26 | >>>>>>> 9e861a4ba506cdb07d765daaf3166186bdc5e7c0
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/Navbar.tsx:25:1
+Parsing ecmascript source code failed
+  23 | <<<<<<< HEAD
+  24 |
+> 25 | =======
+     | ^^^^^^^
+  26 | >>>>>>> 9e861a4ba506cdb07d765daaf3166186bdc5e7c0
+  27 |   return (
+  28 |     <header className={styles.header}>
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/Navbar.tsx:26:1
+Parsing ecmascript source code failed
+  24 |
+  25 | =======
+> 26 | >>>>>>> 9e861a4ba506cdb07d765daaf3166186bdc5e7c0
+     | ^^^^^^^
+  27 |   return (
+  28 |     <header className={styles.header}>
+  29 |       <div className={styles.container}>
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+
+
+[00:29:48.744] Browser ERROR   ./src/app/page.tsx:12:4
+Parsing ecmascript source code failed
+  10 |           <p>Code with Precision. Circuits with Purpose.</p>
+  11 |         </div>
+> 12 | <<<<<<< HEAD
+     |    ^^
+  13 |         <div className="heroImg">
+  14 |           <Image
+  15 |             src="/images/techsavvyteens-helping-people-2.jpg"
+
+Expression expected
+[00:29:48.744] Browser ERROR   ./src/components/Navbar.tsx:33:4
+Parsing ecmascript source code failed
+  31 |           <div className={styles.navLeft}>
+  32 |             <Link href="/" className={styles.logo}>
+> 33 | <<<<<<< HEAD
+     |    ^^
+  34 |               <div className="flex items-center gap-2">
+  35 |                 <Image
+  36 |                   src="/images/icons/brian-li-logo.png"
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+[00:29:48.744] Browser ERROR   ./src/components/Navbar.tsx:26:1
+Parsing ecmascript source code failed
+  24 |
+  25 | =======
+> 26 | >>>>>>> 9e861a4ba506cdb07d765daaf3166186bdc5e7c0
+     | ^^^^^^^
+  27 |   return (
+  28 |     <header className={styles.header}>
+  29 |       <div className={styles.container}>
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+[00:29:48.744] Browser ERROR   ./src/app/page.tsx:12:4
+Parsing ecmascript source code failed
+  10 |           <p>Code with Precision. Circuits with Purpose.</p>
+  11 |         </div>
+> 12 | <<<<<<< HEAD
+     |    ^^
+  13 |         <div className="heroImg">
+  14 |           <Image
+  15 |             src="/images/techsavvyteens-helping-people-2.jpg"
+
+Expression expected
+[00:29:48.744] Browser ERROR   ./src/components/Navbar.tsx:33:4
+Parsing ecmascript source code failed
+  31 |           <div className={styles.navLeft}>
+  32 |             <Link href="/" className={styles.logo}>
+> 33 | <<<<<<< HEAD
+     |    ^^
+  34 |               <div className="flex items-center gap-2">
+  35 |                 <Image
+  36 |                   src="/images/icons/brian-li-logo.png"
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+[00:29:48.744] Browser ERROR   ./src/components/Navbar.tsx:26:1
+Parsing ecmascript source code failed
+  24 |
+  25 | =======
+> 26 | >>>>>>> 9e861a4ba506cdb07d765daaf3166186bdc5e7c0
+     | ^^^^^^^
+  27 |   return (
+  28 |     <header className={styles.header}>
+  29 |       <div className={styles.container}>
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+[00:29:48.774] Server  ERROR    ⨯ ./src/components/Navbar.tsx:33:2
+Parsing ecmascript source code failed
+  31 |           <div className={styles.navLeft}>
+  32 |             <Link href="/" className={styles.logo}>
+> 33 | <<<<<<< HEAD
+     |  ^^
+  34 |               <div className="flex items-center gap-2">
+  35 |                 <Image
+  36 |                   src="/images/icons/brian-li-logo.png"
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/Navbar.tsx:33:4
+Parsing ecmascript source code failed
+  31 |           <div className={styles.navLeft}>
+  32 |             <Link href="/" className={styles.logo}>
+> 33 | <<<<<<< HEAD
+     |    ^^
+  34 |               <div className="flex items-center gap-2">
+  35 |                 <Image
+  36 |                   src="/images/icons/brian-li-logo.png"
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/Navbar.tsx:3:1
+Parsing ecmascript source code failed
+  1 | "use client";
+  2 | import Link from "next/link";
+> 3 | <<<<<<< HEAD
+    | ^^^^^^^
+  4 | import Image from "next/image";
+  5 | =======
+  6 | >>>>>>> 9e861a4ba506cdb07d765daaf3166186bdc5e7c0
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/Navbar.tsx:5:1
+Parsing ecmascript source code failed
+  3 | <<<<<<< HEAD
+  4 | import Image from "next/image";
+> 5 | =======
+    | ^^^^^^^
+  6 | >>>>>>> 9e861a4ba506cdb07d765daaf3166186bdc5e7c0
+  7 | import { usePathname } from "next/navigation";
+  8 | import styles from "./Navbar.module.css";
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/Navbar.tsx:6:1
+Parsing ecmascript source code failed
+  4 | import Image from "next/image";
+  5 | =======
+> 6 | >>>>>>> 9e861a4ba506cdb07d765daaf3166186bdc5e7c0
+    | ^^^^^^^
+  7 | import { usePathname } from "next/navigation";
+  8 | import styles from "./Navbar.module.css";
+  9 |
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/Navbar.tsx:12:1
+Parsing ecmascript source code failed
+  10 | const navLinks = [
+  11 |   { href: "/", label: "Home" },
+> 12 | <<<<<<< HEAD
+     | ^^^^^^^
+  13 |   { href: "/blog", label: "Writing" },
+  14 | =======
+  15 |   { href: "/blog", label: "Blog" },
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/Navbar.tsx:14:1
+Parsing ecmascript source code failed
+  12 | <<<<<<< HEAD
+  13 |   { href: "/blog", label: "Writing" },
+> 14 | =======
+     | ^^^^^^^
+  15 |   { href: "/blog", label: "Blog" },
+  16 | >>>>>>> 9e861a4ba506cdb07d765daaf3166186bdc5e7c0
+  17 |   { href: "/projects", label: "Projects" },
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/Navbar.tsx:16:1
+Parsing ecmascript source code failed
+  14 | =======
+  15 |   { href: "/blog", label: "Blog" },
+> 16 | >>>>>>> 9e861a4ba506cdb07d765daaf3166186bdc5e7c0
+     | ^^^^^^^
+  17 |   { href: "/projects", label: "Projects" },
+  18 |   { href: "/about", label: "About" },
+  19 | ];
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/Navbar.tsx:23:1
+Parsing ecmascript source code failed
+  21 | export default function Navbar() {
+  22 |   const pathname = usePathname();
+> 23 | <<<<<<< HEAD
+     | ^^^^^^^
+  24 |
+  25 | =======
+  26 | >>>>>>> 9e861a4ba506cdb07d765daaf3166186bdc5e7c0
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/Navbar.tsx:25:1
+Parsing ecmascript source code failed
+  23 | <<<<<<< HEAD
+  24 |
+> 25 | =======
+     | ^^^^^^^
+  26 | >>>>>>> 9e861a4ba506cdb07d765daaf3166186bdc5e7c0
+  27 |   return (
+  28 |     <header className={styles.header}>
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/Navbar.tsx:26:1
+Parsing ecmascript source code failed
+  24 |
+  25 | =======
+> 26 | >>>>>>> 9e861a4ba506cdb07d765daaf3166186bdc5e7c0
+     | ^^^^^^^
+  27 |   return (
+  28 |     <header className={styles.header}>
+  29 |       <div className={styles.container}>
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+
+
+[00:29:49.697] Browser ERROR   uncaughtError: Error: ./src/app/page.tsx:12:4
+Parsing ecmascript source code failed
+  10 |           <p>Code with Precision. Circuits with Purpose.</p>
+  11 |         </div>
+> 12 | <<<<<<< HEAD
+     |    ^^
+  13 |         <div className="heroImg">
+  14 |           <Image
+  15 |             src="/images/techsavvyteens-helping-people-2.jpg"
+
+Expression expected
+
+
+[00:29:50.908] Browser ERROR   ./src/app/page.tsx:12:4
+Parsing ecmascript source code failed
+  10 |           <p>Code with Precision. Circuits with Purpose.</p>
+  11 |         </div>
+> 12 | <<<<<<< HEAD
+     |    ^^
+  13 |         <div className="heroImg">
+  14 |           <Image
+  15 |             src="/images/techsavvyteens-helping-people-2.jpg"
+
+Expression expected
+[00:29:50.908] Browser ERROR   ./src/components/Navbar.tsx:33:4
+Parsing ecmascript source code failed
+  31 |           <div className={styles.navLeft}>
+  32 |             <Link href="/" className={styles.logo}>
+> 33 | <<<<<<< HEAD
+     |    ^^
+  34 |               <div className="flex items-center gap-2">
+  35 |                 <Image
+  36 |                   src="/images/icons/brian-li-logo.png"
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+[00:29:50.908] Browser ERROR   ./src/components/Navbar.tsx:26:1
+Parsing ecmascript source code failed
+  24 |
+  25 | =======
+> 26 | >>>>>>> 9e861a4ba506cdb07d765daaf3166186bdc5e7c0
+     | ^^^^^^^
+  27 |   return (
+  28 |     <header className={styles.header}>
+  29 |       <div className={styles.container}>
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+[00:29:50.908] Browser ERROR   ./src/components/Navbar.tsx:33:4
+Parsing ecmascript source code failed
+  31 |           <div className={styles.navLeft}>
+  32 |             <Link href="/" className={styles.logo}>
+> 33 | <<<<<<< HEAD
+     |    ^^
+  34 |               <div className="flex items-center gap-2">
+  35 |                 <Image
+  36 |                   src="/images/icons/brian-li-logo.png"
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+[00:29:50.908] Browser ERROR   ./src/components/Navbar.tsx:26:1
+Parsing ecmascript source code failed
+  24 |
+  25 | =======
+> 26 | >>>>>>> 9e861a4ba506cdb07d765daaf3166186bdc5e7c0
+     | ^^^^^^^
+  27 |   return (
+  28 |     <header className={styles.header}>
+  29 |       <div className={styles.container}>
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+[00:29:50.908] Browser ERROR   ./src/components/Navbar.tsx:33:4
+Parsing ecmascript source code failed
+  31 |           <div className={styles.navLeft}>
+  32 |             <Link href="/" className={styles.logo}>
+> 33 | <<<<<<< HEAD
+     |    ^^
+  34 |               <div className="flex items-center gap-2">
+  35 |                 <Image
+  36 |                   src="/images/icons/brian-li-logo.png"
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+[00:29:50.908] Browser ERROR   ./src/components/Navbar.tsx:26:1
+Parsing ecmascript source code failed
+  24 |
+  25 | =======
+> 26 | >>>>>>> 9e861a4ba506cdb07d765daaf3166186bdc5e7c0
+     | ^^^^^^^
+  27 |   return (
+  28 |     <header className={styles.header}>
+  29 |       <div className={styles.container}>
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+[00:29:50.908] Browser ERROR   ./src/components/Navbar.tsx:33:4
+Parsing ecmascript source code failed
+  31 |           <div className={styles.navLeft}>
+  32 |             <Link href="/" className={styles.logo}>
+> 33 | <<<<<<< HEAD
+     |    ^^
+  34 |               <div className="flex items-center gap-2">
+  35 |                 <Image
+  36 |                   src="/images/icons/brian-li-logo.png"
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+[00:29:50.908] Browser ERROR   ./src/components/Navbar.tsx:26:1
+Parsing ecmascript source code failed
+  24 |
+  25 | =======
+> 26 | >>>>>>> 9e861a4ba506cdb07d765daaf3166186bdc5e7c0
+     | ^^^^^^^
+  27 |   return (
+  28 |     <header className={styles.header}>
+  29 |       <div className={styles.container}>
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+[00:29:51.272] Browser ERROR   ./src/app/page.tsx:12:4
+Parsing ecmascript source code failed
+  10 |           <p>Code with Precision. Circuits with Purpose.</p>
+  11 |         </div>
+> 12 | <<<<<<< HEAD
+     |    ^^
+  13 |         <div className="heroImg">
+  14 |           <Image
+  15 |             src="/images/techsavvyteens-helping-people-2.jpg"
+
+Expression expected
+[00:29:51.272] Browser ERROR   ./src/components/Navbar.tsx:33:4
+Parsing ecmascript source code failed
+  31 |           <div className={styles.navLeft}>
+  32 |             <Link href="/" className={styles.logo}>
+> 33 | <<<<<<< HEAD
+     |    ^^
+  34 |               <div className="flex items-center gap-2">
+  35 |                 <Image
+  36 |                   src="/images/icons/brian-li-logo.png"
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+[00:29:51.272] Browser ERROR   ./src/components/Navbar.tsx:26:1
+Parsing ecmascript source code failed
+  24 |
+  25 | =======
+> 26 | >>>>>>> 9e861a4ba506cdb07d765daaf3166186bdc5e7c0
+     | ^^^^^^^
+  27 |   return (
+  28 |     <header className={styles.header}>
+  29 |       <div className={styles.container}>
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+[00:30:44.276] Browser ERROR   ./src/components/Navbar.tsx:33:4
+Parsing ecmascript source code failed
+  31 |           <div className={styles.navLeft}>
+  32 |             <Link href="/" className={styles.logo}>
+> 33 | <<<<<<< HEAD
+     |    ^^
+  34 |               <div className="flex items-center gap-2">
+  35 |                 <Image
+  36 |                   src="/images/icons/brian-li-logo.png"
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+[00:30:44.276] Browser ERROR   ./src/components/Navbar.tsx:26:1
+Parsing ecmascript source code failed
+  24 |
+  25 | =======
+> 26 | >>>>>>> 9e861a4ba506cdb07d765daaf3166186bdc5e7c0
+     | ^^^^^^^
+  27 |   return (
+  28 |     <header className={styles.header}>
+  29 |       <div className={styles.container}>
+
+Merge conflict marker encountered.
+
+Import trace:
+  Server Component:
+    ./src/components/Navbar.tsx
+    ./src/app/layout.tsx
+[00:31:02.688] Server  LOG      ✓ Compiled in 72ms
+[00:31:04.955] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
