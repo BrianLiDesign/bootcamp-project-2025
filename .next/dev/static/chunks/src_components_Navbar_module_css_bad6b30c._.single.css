@@ -51,14 +51,14 @@
   transition: color .3s;
 }
 
+.Navbar-module__cJzEcG__nav ul li a:hover {
+  color: #0070f3;
+}
+
 .Navbar-module__cJzEcG__active {
   color: #0070f3;
   border-bottom: 2px solid #0070f3;
   padding-bottom: 2px;
-}
-
-.Navbar-module__cJzEcG__nav ul li a:hover {
-  color: #0070f3;
 }
 
 /*# sourceMappingURL=src_components_Navbar_module_css_bad6b30c._.single.css.map*/
