@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import connectDB from "@/database/db";
-import BlogModel from "@/database/blogSchema";
+import BlogModel, { Blog } from "@/database/blogSchema";
 import CommentForm from "@/components/CommentForm";
 
 type Props = { params: Promise<{ slug: string }> };
@@ -9,7 +9,7 @@ export default async function BlogDetailPage({ params }: Props) {
   const { slug } = await params;
   await connectDB();
 
-  const blog = await BlogModel.findOne({ slug }).lean();
+  const blog = (await BlogModel.findOne({ slug }).lean()) as Blog | null;
   if (!blog) return notFound();
 
   const date = blog.date ? new Date(blog.date) : null;
