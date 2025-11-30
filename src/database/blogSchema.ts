@@ -14,6 +14,7 @@ export type Blog = {
   content: string;
   image: string;
   image_alt: string;
+  tags?: string[];
   comments?: IComment[];
 };
 
@@ -31,6 +32,7 @@ const blogSchema = new Schema<Blog>({
   image: { type: String, required: true },
   image_alt: { type: String, required: true },
   content: { type: String, required: true },
+  tags: { type: [String], default: [] },
   comments: { type: [commentSchema], default: [] },
 });
 

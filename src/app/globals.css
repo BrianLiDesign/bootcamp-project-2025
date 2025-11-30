@@ -1,22 +1,57 @@
 :root {
-  --text: #111;
+  --background-color: #f7f7f7;
+  --footer-color: #ffffff;
+  --header-color: #ffffff;
+  --link-color: #0078d7;
+  --text-color: #333333;
+  --text-footer-color: #666666;
+  --text-secondary-color: #91a3b0;
+  --text: #333333;
   --muted: #666;
-  --accent: #0070f3;
-  --bg: #fff;
+  --accent: #0078d7;
+  --bg: #f7f7f7;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("/fonts/proxima-nova-regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("/fonts/JetBrainsMono-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Lexend Deca";
+  src: url("/fonts/lexend-deca-regular.ttf") format("truetype");
 }
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 html,
 body {
   margin: 0;
   padding: 0;
   background: var(--bg);
-  color: var(--text);
-  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto,
-    Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  color: var(--text-color);
+  font-family: "Proxima Nova", sans-serif;
+  min-height: 100vh;
 }
+
 a {
   color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--link-color);
 }

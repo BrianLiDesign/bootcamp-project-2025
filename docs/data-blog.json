@@ -1,0 +1,26 @@
+{
+  "blogs": [
+    {
+      "title": "Flip That Digit - How I Built a Simple Game",
+      "slug": "flip-that-digit",
+      "date": { "$date": "2025-08-01T00:00:00.000Z" },
+      "description": "A simple game to flip the switch corresponding to the number displayed.",
+      "image": "/images/icons/flip-that-digit.svg",
+      "image_alt": "Flip That Digit game screenshot",
+      "content": "A simple game to flip the switch corresponding to the number displayed. The goal is to match the pattern by flipping the correct switches as quickly as possible. This project taught me about game logic, event handling, and creating engaging user interfaces.",
+      "tags": ["Hardware"],
+      "comments": []
+    },
+    {
+      "title": "TechSavvyTeens - Helping Seniors with Technology",
+      "slug": "techsavvyteens",
+      "date": { "$date": "2024-09-01T00:00:00.000Z" },
+      "description": "My experience working for TechSavvyTeens, a nonprofit organization that helps elderly people with technology.",
+      "image": "/images/techsavvyteens-helping-people-2.jpg",
+      "image_alt": "TechSavvyTeens Event - helping an elderly lady with her phone",
+      "content": "My experience working for TechSavvyTeens, a nonprofit organization that helps elderly people with technology, has been incredible. That's me helping the elderly lady with her phone! Kupuna who are clueless about technology are welcome to bring their phones, laptops and other devices for assistance from Tech Savvy Teens, who will be at Windward Mall's Center Court from 10 a.m. to 2 p.m. Saturday. The free event is open to all, not only older adults, who need tech support, personal guidance and practical advice to operate their devices. The event will also feature music, entertainment, giveaways and prizes, including a chance to win a free laptop. The event is sponsored by Koolau Pilina Fund, Acton Digital Academy, Gimme a Break Caring for Caregivers, Ohia Technology Group, Kupuna Power and Bell Charitable Foundation. Tech Savvy Teens is part of a program created by Acton Digital Academy, a nonprofit group based in Kaneohe. The organization is dedicated to preparing youth for the workforce with technology skills and bridging the generation gap between kupuna and middle and high school students. For more information, visit techsavvyteens.org.",
+      "tags": ["Community", "Education", "Technology"],
+      "comments": []
+    }
+  ]
+}

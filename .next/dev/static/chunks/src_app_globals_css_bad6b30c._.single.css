@@ -1,25 +1,59 @@
 /* [project]/src/app/globals.css [app-client] (css) */
 :root {
-  --text: #111;
+  --background-color: #f7f7f7;
+  --footer-color: #fff;
+  --header-color: #fff;
+  --link-color: #0078d7;
+  --text-color: #333;
+  --text-footer-color: #666;
+  --text-secondary-color: #91a3b0;
+  --text: #333;
   --muted: #666;
-  --accent: #0070f3;
-  --bg: #fff;
+  --accent: #0078d7;
+  --bg: #f7f7f7;
+}
+
+@font-face {
+  font-family: Proxima Nova;
+  src: url("/fonts/proxima-nova-regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: JetBrains Mono;
+  src: url("/fonts/JetBrainsMono-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Lexend Deca;
+  src: url("/fonts/lexend-deca-regular.ttf") format("truetype");
 }
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 html, body {
   background: var(--bg);
-  color: var(--text);
+  color: var(--text-color);
+  min-height: 100vh;
   margin: 0;
   padding: 0;
-  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji;
+  font-family: Proxima Nova, sans-serif;
 }
 
 a {
   color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--link-color);
 }
 
 /*# sourceMappingURL=src_app_globals_css_bad6b30c._.single.css.map*/

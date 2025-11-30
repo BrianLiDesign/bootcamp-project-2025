@@ -29,9 +29,9 @@ export default async function BlogListPage() {
   }
 
   return (
-    <section style={{ maxWidth: 1000, margin: "0 auto", padding: "2rem 1rem" }}>
+    <section style={{ maxWidth: 1200, margin: "0 auto", padding: "2rem 1rem" }}>
       <h1>Blog</h1>
-      <div style={{ display: "grid", gap: "1rem", marginTop: "1rem" }}>
+      <div style={{ display: "grid", gap: "1.5rem", marginTop: "2rem" }}>
         {blogs.map((b: any) => (
           <BlogPreview
             key={b.slug}
@@ -41,6 +41,7 @@ export default async function BlogListPage() {
             date={b.date}
             image={b.image}
             image_alt={b.image_alt}
+            tags={b.tags}
           />
         ))}
       </div>
