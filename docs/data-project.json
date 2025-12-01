@@ -1,0 +1,12 @@
+{
+  "projects": [
+    {
+      "name": "Flip That Digit",
+      "slug": "flip-that-digit",
+      "description": "A simple game to flip the switch corresponding to the number displayed. Match the pattern by flipping the correct switches as quickly as possible.",
+      "image": "/images/icons/flip-that-digit.svg",
+      "image_alt": "Flip That Digit game icon",
+      "link": "https://brianlidesign.github.io/bootcamp-project-2025/pages/flip-that-digit.html"
+    }
+  ]
+}

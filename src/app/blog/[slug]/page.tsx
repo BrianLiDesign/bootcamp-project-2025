@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import connectDB from "@/database/db";
 import BlogModel, { Blog } from "@/database/blogSchema";
 import CommentForm from "@/components/CommentForm";
+import Comment from "@/components/Comment";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -30,25 +31,8 @@ export default async function BlogDetailPage({ params }: Props) {
           {(blog.comments ?? []).length === 0 && (
             <p style={{ color: "#666" }}>Be the first to comment.</p>
           )}
-          {(blog.comments ?? []).map((c: any, idx: number) => (
-            <div
-              key={idx}
-              style={{ border: "1px solid #eee", padding: 12, borderRadius: 8 }}
-            >
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "space-between",
-                  marginBottom: 4,
-                }}
-              >
-                <strong>{c.name}</strong>
-                <span style={{ color: "#999", fontSize: 12 }}>
-                  {c.createdAt ? new Date(c.createdAt).toLocaleString() : ""}
-                </span>
-              </div>
-              <div style={{ whiteSpace: "pre-wrap" }}>{c.message}</div>
-            </div>
+          {(blog.comments ?? []).map((comment, index) => (
+            <Comment key={index} comment={comment} />
           ))}
         </div>
         <div style={{ marginTop: 16 }}>
